@@ -1,0 +1,112 @@
+{% schema %}
+{
+  "name": "Responsive Promo Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Explore Our Collections"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Hand-picked selections just for you"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "promo",
+      "name": "Promo Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Promo Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Short description goes here."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Responsive Promo Grid",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="responsive-promo-grid">
+  <div class="container">
+    {% if section.settings.heading != blank %}
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.subheading != blank %}
+      <p class="subheading">{{ section.settings.subheading }}</p>
+    {% endif %}
+
+    <div class="promo-grid">
+      {% for block in section.blocks %}
+        <div class="promo-item">
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
+          {% endif %}
+            {% if block.settings.image %}
+              <img src="{{ block.settings.image | image_url: width: 600 }}" alt="{{ block.settings.title }}" />
+            {% endif %}
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.description }}</p>
+          {% if block.settings.link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .responsive-promo-grid .container {
+    padding: 2rem;
+    text-align: center;
+  }
+  .responsive-promo-grid .promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .responsive-promo-grid .promo-item {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  .responsive-promo-grid .promo-item:hover {
+    transform: translateY(-5px);
+  }
+  .responsive-promo-grid .promo-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+</style>
