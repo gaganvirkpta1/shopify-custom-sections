@@ -72,10 +72,10 @@ Whether you're building a new store or need help optimizing an existing one, I b
 ## 📊 GitHub Stats & Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gaganvirkpta1&show_icons=true&theme=radical&hide_border=true&hide=prs,issues" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaganvirkpta1&layout=compact&theme=radical&hide_border=true" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=gaganvirkpta1&show_icons=true&theme=default&hide=prs,issues&hide_border=true" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaganvirkpta1&layout=compact&theme=default&hide_border=true" width="45%" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gaganvirkpta1&label=Profile+Views&color=brightgreen" alt="gaganvirkpta1" />
+  <img src="https://komarev.com/ghpvc/?username=gaganvirkpta1&label=Profile+Views&color=blue" alt="Profile Views" />
 </p>
