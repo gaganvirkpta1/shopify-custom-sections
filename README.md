@@ -37,15 +37,20 @@
 
 ### 🔹 [Hydro Moss – Niche Product Store](https://hydro-moss.myshopify.com)
 > Lightweight, mobile-first theme with optimized conversions for DTC health products.
-
 ---
 
-## 📂 Shopify Sections (Free to Use)
+## 📦 Open Source Shopify Sections
 
-- [`Logo List With Slider`](sections/Logo%20List%20With%20Slider)
-- [`Responsive Promo Grid`](sections/responsive-promo-grid.liquid)
+I’ve also published several **free Shopify 2.0 compatible Liquid sections** you can use in your own themes:
 
----
+🔸 [Logo List With Slider](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/Logo%20List%20With%20Slider)  
+🔸 [Featured Collection Slider](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/featured-collection-slider.liquid)  
+🔸 [Hero Banner With Buttons](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/hero-banner-with-buttons.liquid)  
+🔸 [Image With Text](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/image-with-text.liquid)  
+🔸 [Responsive Promo Grid](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/responsive-promo-grid.liquid)  
+🔸 [Testimonial Slider](https://github.com/gaganvirkpta1/shopify-custom-sections/blob/main/sections/testimonial-slider.liquid)
+
+👉 Full Repo: [github.com/gaganvirkpta1/shopify-custom-sections](https://github.com/gaganvirkpta1/shopify-custom-sections)
 
 ## 🛠️ How to Use My Shopify Sections
 
