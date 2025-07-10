@@ -67,3 +67,16 @@ Whether you're building a new store or need help optimizing an existing one, I b
 
 👉 [Message me on Upwork](https://www.upwork.com/freelancers/shopifyexpertshopifydeveloper) or connect via [LinkedIn](https://www.linkedin.com/in/shopify-expert-gagan-deep/)
 
+---
+
+## 🧩 GitHub Stats & Insights
+
+![Gagan's GitHub stats](https://github-readme-stats.vercel.app/api?username=gaganvirkpta1&show_icons=true&theme=tokyonight&hide_title=true&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gaganvirkpta1&layout=compact&theme=tokyonight&hide_border=true)
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=gaganvirkpta1.gaganvirkpta1)
+
+---
+
+✅ Next Step: Paste this entire Markdow
