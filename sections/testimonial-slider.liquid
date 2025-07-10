@@ -1,0 +1,87 @@
+{% schema %}
+{
+  "name": "Testimonial Slider",
+  "tag": "section",
+  "class": "testimonial-slider",
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "text",
+          "id": "quote",
+          "label": "Testimonial Quote"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author Name"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Testimonial Slider",
+      "category": "Testimonials",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "quote": "This is the best Shopify store ever!",
+            "author": "John Doe"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="testimonial-slider-wrapper">
+  <div class="slider" id="testimonial-slider">
+    {% for block in section.blocks %}
+      <div class="slide">
+        <p>"{{ block.settings.quote }}"</p>
+        <strong>- {{ block.settings.author }}</strong>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.testimonial-slider-wrapper {
+  background: #f3f3f3;
+  padding: 60px 20px;
+  text-align: center;
+}
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+}
+.slide {
+  min-width: 300px;
+  scroll-snap-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+
+<script>
+  // Optional auto-scroll
+  document.addEventListener('DOMContentLoaded', function () {
+    const slider = document.getElementById('testimonial-slider');
+    setInterval(() => {
+      slider.scrollLeft += 320;
+      if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
+        slider.scrollLeft = 0;
+      }
+    }, 4000);
+  });
+</script>
