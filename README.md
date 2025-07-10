@@ -69,14 +69,13 @@ Whether you're building a new store or need help optimizing an existing one, I b
 
 ---
 
-## 🧩 GitHub Stats & Insights
+## 📊 GitHub Stats & Insights
 
-![Gagan's GitHub stats](https://github-readme-stats.vercel.app/api?username=gaganvirkpta1&show_icons=true&theme=tokyonight&hide_title=true&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gaganvirkpta1&show_icons=true&theme=radical&hide_border=true&hide=prs,issues" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaganvirkpta1&layout=compact&theme=radical&hide_border=true" width="49%"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gaganvirkpta1&layout=compact&theme=tokyonight&hide_border=true)
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=gaganvirkpta1.gaganvirkpta1)
-
----
-
-✅ Next Step: Paste this entire Markdow
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=gaganvirkpta1&label=Profile+Views&color=brightgreen" alt="gaganvirkpta1" />
+</p>
